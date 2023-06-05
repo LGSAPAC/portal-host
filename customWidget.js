@@ -5,10 +5,15 @@
 class EmployeeRecognition extends HTMLElement {
   constructor() {
     super();
+    // Access info about the logged-in user:
+    const { firstName, lastName } = window.Liferay.currentUser;
     this.innerHTML = `
       <div
         class='border d-flex justify-content-center flex-grow-1 align-items-center py-2'>
-          TODO: Build your solution!
+          <div class='flex-column'>
+            <p>TODO: Build your solution!<p>
+            <p>Current User: ${firstName} ${lastName}</p>
+          <div>
       </div>`;
   }
 }
