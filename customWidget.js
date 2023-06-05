@@ -5,7 +5,11 @@
 class EmployeeRecognition extends HTMLElement {
   constructor() {
     super();
-    this.innerHTML = "<div>TODO!: Build your solution!</div>";
+    this.innerHTML = `
+      <div
+        class='border d-flex justify-content-center flex-grow-1 align-items-center'>
+          TODO: Build your solution!
+      </div>`;
   }
 }
 
