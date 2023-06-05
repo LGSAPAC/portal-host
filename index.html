@@ -55,7 +55,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-8">
+          <div class="col-md-8 col-sm-12 py-3">
             <table class="table table-striped">
               <thead>
                 <tr>
@@ -109,9 +109,10 @@
               </tbody>
             </table>
           </div>
-          <div class="col-4">
+          <div class="col-md-4 col-sm-12 py-3 d-flex flex-column">
             <!-- Your widget goes here! -->
-            <employee-recognition />
+            <employee-recognition class="d-flex flex-grow-1" />
+            <!-- Note: You may change the styling of the employee-recognition element -->
           </div>
         </div>
       </div>
@@ -173,6 +174,7 @@
         </div>
       </section>
     </footer>
+    <!-- You may change the following line to point to your own JavaScript file. -->
     <script src="./customWidget.js"></script>
   </body>
 </html>
