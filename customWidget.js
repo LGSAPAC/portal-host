@@ -7,7 +7,7 @@ class EmployeeRecognition extends HTMLElement {
     super();
     this.innerHTML = `
       <div
-        class='border d-flex justify-content-center flex-grow-1 align-items-center'>
+        class='border d-flex justify-content-center flex-grow-1 align-items-center py-2'>
           TODO: Build your solution!
       </div>`;
   }
